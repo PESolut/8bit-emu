@@ -3,7 +3,7 @@ class Renderer {
         this.cols = 64;
         this.rows = 32;
 
-        this.scale = 11;
+        this.scale = scale
 
         this.canvas = document.querySelector('canvas')
         this.ctx = this.canvas.getContext('2d');

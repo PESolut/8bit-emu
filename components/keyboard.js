@@ -19,7 +19,7 @@ class Keyboard {
             86: 0xF  // V
         }
 
-        this.keyPressed = []
+        this.keysPressed = []
 
         this.onNextKeyPress = null
         window.addEventListener('keydown', this.onKeyDown.bind(this), false)
